@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <script type="text/javascript">
+      // Preserving the route path
+      var redirectPath = window.location.pathname;
+      if (redirectPath !== "/") {
+        window.location.replace("/index.html" + "#" + redirectPath);
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
